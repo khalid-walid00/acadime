@@ -38,7 +38,10 @@
 
 /* Top Navigation */
 
- ul ul{z-index:9999; position:absolute; width:160px;}
+ ul ul{
+  z-index:9999; position:absolute; width:160px;
+}
+
 .slid::after{
   content: "_";
  
@@ -56,7 +59,13 @@
   ul ul li::before{
     content: "_______________";
   }
+
+
+  
  ul li:hover > ul{display:block;}
+
+
+
  li{
   cursor: pointer;
  }
